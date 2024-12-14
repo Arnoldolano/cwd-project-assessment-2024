@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <h1 class="center"><span>Education</span></h1>
+
+    <div class="divider"></div>
+    <div class="container">
+    <h1 class=" text-lighten-2">Westbridge Institute of Technology Inc.</h1>
+    <h4>
+        <p>I graduated in June 2024 from Westbridge Institute of Technology Inc. with a Bachelor's degree in Computer Science. During my studies, I developed a strong foundation in programming, software development, and web technologies. My coursework included subjects like algorithms, data structures, database management, and web development, where I gained hands-on experience building projects and solving real-world problems. I also participated in team-based software projects, enhancing my collaboration and problem-solving skills. This academic journey has equipped me with the technical expertise and critical thinking abilities needed to excel in the tech industry.</p>
+    </h4>
+
+    <img src="images/Img6.png" alt="" class="materialboxed  responsive-img" data-caption="Westbridge Institute of Technology Inc.">
+
+    
+
+    </div>
+
+    <div style="height: 20px;"></div>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+    <script>
+        $(document).ready(function() {
+            // materialbox init
+            $('.materialboxed').materialbox(
+            );
+            // Slider init
+            $('.slider').slider({
+                indicators: false,
+                height: 700
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <h1 class="center"><span>Services</span></h1>
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/img2.jpg" alt="">
+                <div class="caption left-align">
+                    <h3><mark>Building responsive, secure, and user-friendly web applications that deliver seamless user experiences across devices.</mark></h3>
+                    <!-- <h5 class="light grey-text text-lighten-3"><mark></mark></h5> -->
+                  </div>
+            </li>
+            <li>
+                <img src="images/img3.jpg" alt="">
+                <div class="caption right-align">
+                <h3><mark>A software developer offers comprehensive services including designing, coding, and maintaining software applications tailored to client needs.</mark> </h3>
+                </div>
+            </li>
+            <li>
+                <img src="images/img4.jpg" alt="">
+                <div class="caption center-align">
+                    <h3><mark>Connecting and harmonizing various software systems and platforms to streamline business processes and data flow.</mark></h3>
+                </div>
+            </li>
+            <li>
+                <img src="images/img5.jpg" alt="">
+                <div class="caption center-align">
+                <h3><mark>Providing ongoing updates, bug fixes, and technical assistance to ensure optimal software performance and reliability.</mark></h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    </div>
+    <!-- <div style="height: 25px;"></div> -->
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+
+    <script>
+        $(document).ready(function() {
+            // materialbox init
+            $('.materialboxed').materialbox(
+            );
+            // Slider init
+            $('.slider').slider({
+                indicators: false,
+                height: 575
+            });
+        });
+    </script>
+</body>
+</html>
